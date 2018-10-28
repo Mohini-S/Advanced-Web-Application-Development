@@ -1,0 +1,267 @@
+/*
+Salunke Mohini Account:
+RedId: 822049248
+CS 645, Spring 2018
+Project 2
+*/
+
+#showcart{
+     display: none;
+}
+
+.container1{
+     margin-top: 10px;
+  background-image: url("Images/l.png");
+  /*backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.4);*/
+   background-position: left;
+   background-repeat: no-repeat;
+   height: 90px;
+}
+.container{
+     /* margin-left: auto;
+     margin-right: auto; */
+}
+
+.column{
+
+}
+.sort-nav-dropdown label{
+     font-size:14px;
+     padding-left:9px;
+     margin-bottom:4px;
+     margin-right:10px;
+     padding-top:11px;
+     color:#000;
+}
+.sort-nav-dropdown{
+     display:flex;
+     justify-content:flex-end;
+     margin:10px;
+}
+.sort-nav-dropdown .sort-nav-dropdown-select{
+     appearance:none;
+     width:auto;
+     /* user-select:none; */
+     border:none;
+     border-radius:5px;
+     /* font-family:inherit; */
+     padding:10px 32px 10px 15px;
+     background-color:#f4f4f4;
+     /* background-position:right 10px center; */
+     /* background-repeat:no-repeat; */
+     /* background-size:12px auto; */
+     font-size:14px;
+     /* transition:background-color 0.3s ease; */
+}
+
+.sort-nav-dropdown .sort-nav-dropdown-select::-ms-expand{
+     display:none
+}
+.sort-nav-dropdown .sort-nav-dropdown-select:hover{
+     background-color:#e7e7e7
+}
+.browsecategory1, .catMinus{
+     display: none;
+}
+.browsevendor1, .catMinus1{
+     display: none;
+}
+.navbar-header a img{
+     height: inherit;
+}
+.navbar-right{
+     margin-right: inherit;
+}
+.navbar li{
+     font-weight: bold;
+}
+.navbar li form{
+     margin-top: 25px;
+     margin-right: 25px;
+}
+.browse1{
+     width: 24%;
+}
+
+.browse1 h3{
+     padding-right: 24px;
+}
+#products{
+     /* margin-left: 10px;
+     margin-right: 10px; */
+}
+.fa-dollar{
+     font-size: 25px;
+}
+.showdetails{
+     align-content: center;
+}
+.browsecategory1{
+
+     margin-right: 10px;
+}
+.browse2{
+     width: 24%;
+}
+
+.browse2 h3{
+     padding-right: 24px;
+}
+.browsevendor1{
+
+     margin-right: 10px;
+}
+.product-disp{
+     position: relative;
+}
+#cart{
+     display: none;
+}
+.cartButton{
+
+  border:1px solid #ddd;
+  border-radius: 4px;
+  padding: 6px 12px;
+  color: #c04c87;
+}
+.fa-shopping-cart{
+  color: grey;
+  padding-top: 5px;
+
+}
+ul li .fa-shopping-cart{
+  color: #428bca;
+  padding: 9px;
+  font-size: 32px;
+}
+.cartButton .fa-shopping-cart{
+     color: #428bca;
+}
+.required+span,.requiredDropDown+span{
+  display: none;
+}
+#showcart+span{
+     display: none;
+}
+.allprod{
+     line-height: 150%;
+     margin-right: 25px;
+}
+.productsincart+span{
+     display: none;
+}
+.noselect{
+     display: none;
+}
+.finaldisp{
+     text-align: center;
+     margin-left: 15px;
+}
+#searchbar{
+     display: inline-block;
+}
+.fa-heart{
+  position: absolute;
+    right: 4%;
+    top: 27%;
+    font-size: 23px;
+}
+.prodcell{
+     padding-top: 15px;
+}
+.prodcell .title h5{
+     display: table-cell;
+     vertical-align: middle;
+     padding-left: 15px;
+     font-size: 19px;
+     height: 60px;
+     margin-bottom: -10px;
+     /* color: white; */
+}
+.firstdiv{
+     margin: auto;
+     /* position: relative; */
+     border:1px solid #ddd;
+     padding: 15px;
+     border-bottom-left-radius:4px;
+     border-bottom-right-radius: 4px;
+}
+
+.firstdiv img{
+     background-color: #ddd;
+     /* align-items: center; */
+     margin-left: auto;
+     margin-right: auto;
+}
+.seconddiv{
+     border:1px solid #ddd;
+     padding: 15px;
+     border-bottom-left-radius:4px;
+     border-bottom-right-radius: 4px;
+}
+.shortDesc{
+     height: 90px;
+}
+
+/* .longDesc p {
+    height: 153px;
+    color: grey;
+    font-size: 12px;
+} */
+.longDesc div{
+     display: flex;
+     align-content: center;
+}
+
+.modal-dialog{
+     max-width: 1000px;
+     width: 100%;
+}
+
+input[type="number"]{
+     width: 50px;
+}
+.hide{
+     display: none;
+}
+.summary{
+     display: none;
+}
+.shipping{
+     display: none;
+}
+
+#cartdisplay .emptycart{
+     display: none;
+}
+.afterOrderconfirmation{
+  display: none;
+}
+#showcart p{
+     margin-left: auto;
+     margin-right: auto;
+}
+#showcart table{
+     margin: auto;
+     border-collapse: separate;
+     border-spacing: 20px;
+}
+
+#showcart .button{
+     width: 50%;
+}
+#showcart h3{
+     text-align: center;
+}
+.costcol1{
+     text-align: right;
+}
+.costcol2{
+     text-align: right;
+}
+.cost td{
+     font-weight: bold;
+}
+#ordertable{
+     font-weight: bold;
+}

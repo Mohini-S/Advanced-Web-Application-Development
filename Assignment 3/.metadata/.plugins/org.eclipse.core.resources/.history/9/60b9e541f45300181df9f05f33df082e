@@ -1,0 +1,16 @@
+class Solution { 
+	public String solution(String S, int K) {
+		String str="", st = "";
+		int l=S.length();
+		for(int i=0;i<l;i++) {
+			if(S.charAt(i)!='-')
+				str += S.charAt(i);
+		}
+		int newlen=str.length();
+		return str;
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(solution('2-4A0r7-4k',4)); 
+	}
+}

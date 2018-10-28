@@ -1,0 +1,104 @@
+/*
+Salunke Mohini Account:
+RedId: 822049248
+CS 645, Spring 2018
+Project 1
+*/
+
+html,body { margin: 0;}
+
+div#bg{
+  background-image: url(./Images/logo1.png);
+  height: auto;
+}
+
+h2 { text-align: center; }
+#logout{
+  float: right;
+  padding-right: 10%;
+}
+div#new_inv {
+    height: 100%;
+    background: #DFD;
+    border: 1px solid #009;
+    padding: 5px;
+}
+div#edit_inv {
+    height: 100%;
+    background: #FFD;
+    border: 1px solid #009;
+    padding: 5px;
+}
+div#delete_inv {
+    height: 100%;
+    background: #FDD;
+    border: 1px solid #009;
+    padding: 5px;
+}
+
+.ui-tabs-hide {
+    display: none;
+}
+span{
+  color: red;
+}
+div#tabs {
+    margin: 40px 150px 40px 150px;
+    /*height: 650px;*/
+    height: auto;
+    min-width:500px;
+}
+
+div#tabs ul {
+    list-style: none;
+    padding: 0px;
+    height: 40px;
+    /*    margin: 0;
+    border-bottom: 1px solid #000;*/
+    margin-bottom: 5px;
+}
+
+div#tabs ul li {
+    float: left;
+    height: 35px;
+    padding: 4px 10px 0 10px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  /*  border: 0px solid #CCC;
+    border-bottom: none;
+    position: relative;
+    background: #aaa;*/
+}
+
+div#tabs ul li a {
+    text-decoration: none;
+    color: black;
+}
+div#tabs ul li.ui-tabs-selected {
+    background: #CCC;
+}
+div#tabs ul li.ui-tabs-selected a {
+    color: white;
+}
+
+/*
+span{
+  color: red;
+}
+
+.tabs hover{
+  background-color: #777;
+}
+
+#new_inv{
+  background-color: red;
+}
+
+#edit_inv{
+  background-color: lightblue;
+}
+
+#delete_inv{
+  background-color: white;
+}
+*/

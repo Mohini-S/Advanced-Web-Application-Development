@@ -1,0 +1,43 @@
+public class Solution { 
+
+	public static void main(String[] args) {
+		String ans = solution("2-4A0r7-4k",2);
+		System.out.println(ans); 
+	}
+	
+	public static String solution(String S, int K) {
+		String str="", st = "";
+		int l=S.length();
+		for(int i=0;i<l;i++) {
+			if(S.charAt(i)!='-')
+				str += S.charAt(i);
+		}
+		int newlen=str.length();
+		int k = newlen%K;
+		int j = 0;
+		if(k != 0) {
+			for(int i=0;i<k;i++) {
+//				j++;
+				st += str.charAt(i);
+//				if(j==K) {
+//					st += '-';
+//					j=0;
+//				}				
+			}
+		}
+		st += '-';
+			j=0;
+			for(int i=k;i<newlen;i++) {
+				j++;
+				st += str.charAt(i);
+				if(j==K) {
+					if(i != newlen-1) {
+						st += '-';
+						j=0;
+					}
+				}	
+			}
+		return st;
+	}
+	
+}

@@ -1,0 +1,266 @@
+<!--
+Salunke Mohini Account:
+RedId: 822049248
+CS 645, Spring 2018
+Project 1
+-->
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Menu</title>
+    <link rel="icon" href="css/Images/l.png" type="image/gif">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/jQueryUI.js"></script>
+    <link rel="stylesheet" href="css/menu.css">
+    <script src="js/open_form.js"></script>
+</head>
+<body>
+  <div id="bg">
+  <h2>Manage Inventory
+    <a href="/perl/jadrn036/proj1/logout.cgi" id="logout">
+      <input type="button" class="form-control btn btn-info" value="Logout">
+    </a></h2></div>
+
+    <div id="tabs">
+              <ul class="nav nav-tabs">
+          <li class="active"><a href="#new_inv" data-toggle="tab"><span>New Record</span></a></li>
+          <li><a href="#edit_inv" data-toggle="tab"><span>Edit Record</span></a></li>
+          <li><a href="#delete_inv" data-toggle="tab"><span>Delete Record</span></a></li>
+        </ul>
+        <div id="new_inv">
+          <p>Add New Item to Inventory </p>
+            <form name="addnewinv" id="addnew" method="post" enctype="multipart/form-data" action="/perl/jadrn036/add_inventory.cgi">
+
+              <div class="form-group col-md-6">
+              <label for="sku">SKU<span>*</span></label>
+                <input class="form-control required" type="text" name="sku" id="sku" size="7" maxlength="7" />
+                <span>Please enter a unique SKU</span>
+              </div>
+
+              <div class="form-group col-md-6">
+              <label for="category">Category<span>*</span></label>
+                <select class="form-control requiredDropDown" name="category" id="category"  data-live-search="true" >
+                  <option value="">Select Category</option>
+                  <option value="gaming">Gaming Laptop</option>
+                  <option value="business">Business Laptop</option>
+                  <option value="home">Home</option>
+                  <option value="twoinone">2 in 1</option>
+                  <option value="macbook">MacBook</option>
+                  <option value="chromebook">ChromeBook</option>
+                </select>
+              <span>Please Select Category</span>
+            </div>
+
+            <div class="form-group col-md-6">
+              <label for="category">Vendor<span>*</span></label>
+                <select class="form-control requiredDropDown" name="vendor" id="vendor"  data-live-search="true" >
+                <option value="">Select Vendor</option>
+                <option value="Len">Lenovo</option>
+                <option value="Del">Dell</option>
+                <option value="hp">HP</option>
+                <option value="Ap">Apple</option>
+                <option value="As">Asus</option>
+                <option value="Ac">Acer</option>
+                <option value="msi">MSI</option>
+                <option value="sg">Samsung</option>
+              </select>
+              <span>Please Select Vendor</span>
+            </div>
+
+          <div class="form-group col-md-6">
+          <label for="m_id">Manufacturer's Identification<span>*</span></label>
+            <input class="form-control required" type="text" name="m_id" id="m_id" size="25" />
+            <span>Please enter Manufacturer's Identification</span>
+          </div>
+
+          <div class="col-md-6">
+          <label for="desc">Description<span>*</span></label>
+            <textarea class="form-control required" id="desc" name="desc" rows="3"></textarea>
+            <span>Please enter a short description for the product</span>
+          </div>
+
+          <div class="col-md-6">
+            <label class="col-md-12" >Profile Pic<span>*</span></label>
+            <div class="row form-group ">
+              <img class="col-md-6" id="prod_img" src="css/images/default.png" alt="Upload image">
+              <input class="col-md-12" type="file" name="fileupload"  id="fileupload" accept="image/*" />
+              <span class="invalidFile">Upload Image in jpeg, gif or png format only</span>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+          <label for="feat">Features<span>*</span></label>
+            <textarea class="form-control required" id="feat" name="feat" rows="3"></textarea>
+            <span>Please enter a description/features for the product</span>
+          </div>
+
+          <div class="form-group col-md-4">
+          <label for="cost">Cost*: $</label>
+            <input class="form-control required" type="number" name="cost" id="cost" size="25" />
+            <span>Please enter a valid cost for the product</span>
+          </div>
+
+          <div class="form-group col-md-4">
+          <label for="retail">Retail<span>*: $</span></label>
+            <input class="form-control required" type="text" name="retail" id="retail" size="25" />
+            <span>Please enter Retail price for the product</span>
+          </div>
+
+          <div class="form-group col-md-4">
+          <label for="retail">Quantity<span>*: </span></label>
+          <input class="form-control required" type="number" name="quantity" value="1" id="quantity" size="25" />
+          <span>
+          </div>
+
+          <div class="row">
+            <div  class="form-group col-md-6">
+            <input class="form-control btn btn-danger" type="reset" value="Clear Data" id="reset"/>
+            </div>
+            <div class="form-group col-md-6">
+              <button  class="form-control btn btn-success"  name="Submit Data" id="submit" >Submit</button>
+            </div>
+          </div>
+        </form>
+      </div><!--for id='new_inv'-->
+
+
+      <div id="edit_inv">
+        <p>Edit item in Inventory </p>
+        <form name="editinv" id="editinv" method="post" enctype="multipart/form-data" action="/perl/jadrn036/edit_inventory.cgi">
+          <div class="form-group col-md-6">
+            <label for="sku">Please enter SKU for the product you want to edit<span>*</span></label>
+            <input class="form-control required" type="text" name="sku" id="sku" size="25" />
+            <span>Please enter a unique SKU</span>
+          </div>
+
+<!---retrieve data from db if entered sku is correct-->
+</ br>
+          <div class="row">
+            <div  class="form-group col-md-6">
+            <input class="form-control btn btn-danger" type="reset" value="Clear Data" id="reset"/>
+            </div>
+            <div class="form-group col-md-6">
+              <button  class="form-control btn btn-success"  name="Submit Data" id="submit" >Submit</button>
+            </div>
+          </div>
+        </form>
+        <form name="addnewinv" id="addnew" method="post" enctype="multipart/form-data" action="/perl/jadrn036/add_inventory.cgi">
+          <div class="form-group col-md-6">
+          <label for="sku">SKU<span>*</span></label>
+            <input class="form-control required" type="text" name="sku" id="sku" size="7" maxlength="7" />
+            <span>Please enter a unique SKU</span>
+          </div>
+
+          <div class="form-group col-md-6">
+          <label for="category">Category<span>*</span></label>
+            <select class="form-control requiredDropDown" name="category" id="category"  data-live-search="true" >
+              <option value="">Select Category</option>
+              <option value="gaming">Gaming Laptop</option>
+              <option value="business">Business Laptop</option>
+              <option value="home">Home</option>
+              <option value="twoinone">2 in 1</option>
+              <option value="macbook">MacBook</option>
+              <option value="chromebook">ChromeBook</option>
+            </select>
+          <span>Please Select Category</span>
+        </div>
+
+        <div class="form-group col-md-6">
+          <label for="category">Vendor<span>*</span></label>
+            <select class="form-control requiredDropDown" name="vendor" id="vendor"  data-live-search="true" >
+            <option value="">Select Vendor</option>
+            <option value="Len">Lenovo</option>
+            <option value="Del">Dell</option>
+            <option value="hp">HP</option>
+            <option value="Ap">Apple</option>
+            <option value="As">Asus</option>
+            <option value="Ac">Acer</option>
+            <option value="msi">MSI</option>
+            <option value="sg">Samsung</option>
+          </select>
+          <span>Please Select Vendor</span>
+        </div>
+
+        <div class="form-group col-md-6">
+        <label for="m_id">Manufacturer's Identification<span>*</span></label>
+          <input class="form-control required" type="text" name="m_id" id="m_id" size="25" />
+          <span>Please enter Manufacturer's Identification</span>
+        </div>
+
+        <div class="col-md-6">
+        <label for="desc">Description<span>*</span></label>
+          <textarea class="form-control required" id="desc" name="desc" rows="3"></textarea>
+          <span>Please enter a short description for the product</span>
+        </div>
+
+        <div class="col-md-6">
+          <label class="col-md-12" >Profile Pic<span>*</span></label>
+          <div class="row form-group ">
+            <img class="col-md-6" id="prod_img" src="images/prod_img.jpg" alt="Upload image">
+            <input class="col-md-12" type="file" name="fileupload"  id="fileupload" accept="image/*" />
+            <span class="invalidFile">Upload Image in jpeg, gif or png format only</span>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+        <label for="feat">Features<span>*</span></label>
+          <textarea class="form-control required" id="feat" name="feat" rows="3"></textarea>
+          <span>Please enter a description/features for the product</span>
+        </div>
+
+        <div class="form-group col-md-4">
+        <label for="cost">Cost*: $</label>
+          <input class="form-control required" type="number" name="cost" id="cost" size="25" />
+          <span>Please enter a valid cost for the product</span>
+        </div>
+
+        <div class="form-group col-md-4">
+        <label for="retail">Retail<span>*: $</span></label>
+          <input class="form-control required" type="text" name="retail" id="retail" size="25" />
+          <span>Please enter Retail price for the product</span>
+        </div>
+
+        <div class="form-group col-md-4">
+        <label for="retail">Quantity<span>*: </span></label>
+        <input class="form-control required" type="number" name="quantity" value="1" id="quantity" size="25" />
+        <span>
+        </div>
+
+        <div class="row">
+          <div  class="form-group col-md-6">
+          <input class="form-control btn btn-danger" type="reset" value="Clear Data" id="reset"/>
+          </div>
+          <div class="form-group col-md-6">
+            <button  class="form-control btn btn-success"  name="Submit Data" id="submit" >Submit</button>
+          </div>
+        </div>
+    </form>
+      </div><!--for id='edit_inv'-->
+
+
+      <div id="delete_inv">
+        <p>Delete item from Inventory</p>
+        <form name="deleteinv" id="deleteinv" method="post" enctype="multipart/form-data" action="/perl/jadrn036/delete_inventory.cgi">
+          <div class="form-group col-md-6">
+            <label for="sku">Please enter SKU for the product you want to delete<span>*</span></label>
+            <input class="form-control required" type="text" name="sku" id="sku" size="25" />
+            <span>Please enter a unique SKU</span>
+          </div>
+          <div class="row">
+            <div  class="form-group col-md-6">
+            <input class="form-control btn btn-danger" type="reset" value="Clear Data" id="reset"/>
+            </div>
+            <div class="form-group col-md-6">
+              <button  class="form-control btn btn-success"  name="Submit Data" id="submit" >Submit</button>
+            </div>
+          </div>
+        </form>
+      </div><!--for id='delete_inv'-->
+
+    </div>
+</body>
+</html>

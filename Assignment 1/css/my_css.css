@@ -1,0 +1,93 @@
+/*
+Salunke Mohini Account:
+RedId: 822049248
+CS 645, Spring 2018
+Project 1
+*/
+
+body{
+  height: 100%;
+  background: url(Images/best_laptops_thumb800.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container1{
+  background-image: url("Images/l.png");
+  /*backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.4);*/
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 90px;
+}
+.container p{
+  padding-top: 30px;
+  padding-bottom: 15px;
+  text-align:center;
+}
+.login{
+  border: 2px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+
+label{
+  padding-left: 5px;
+}
+
+.container p{
+  font-size: 50px;
+}
+
+.username.p{
+  font-size: 10px;
+}
+.box{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 320px;
+  padding: 1px 25px 30px;
+  border: 2px solid lightblue;
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.2);
+  /*background: white;*/
+}
+.box p{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+#row{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.btn.btn-primary{
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100px;
+}
+#checkpwd{
+  margin-left: 75px;
+}
+.userlogin input[type=text]
+.userlogin input[type=password]{
+    width: 100%;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+.container1{
+  margin-top: 20px;
+}
+h2{
+  text-align: center;
+}
+.error{
+  color: red;
+  font-weight: bold;
+}
+a{
+  color: white;
+}

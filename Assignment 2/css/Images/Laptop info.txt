@@ -1,0 +1,218 @@
+
+jadrn015
+029
+042
+
+Business Laptops:
+
+Lenovo - 17.3" Laptop - Intel Core i7 - 16GB Memory - 2TB Hard Drive - Platinum gray
+
+https://www.linkedin.com/feed/update/urn:li:activity:6366789495014195200
+
+Gaming Laptops:
+
+SKU: AGL-607
+Model: Asus GL503VM-BI7N13
+Asus - 15.6" Laptop - Intel Core i7 - 16GB Memory - NVIDIA GeForce GTX 1060 - 1TB Hard Drive + 128GB Solid State Drive - Soft touch black
+Features:
+Slim 0.9” profile and lightweight 5 lbs body. 15.6” 120Hz Full HD panel with G-SYNC.
+7th-generation Intel® Core™ i7-7700HQ quad-core 2.8GHz (Turbo to 3.8GHz) with discrete GeForce® GTX™ 1060 3GB graphics. Dual-fan thermal design.
+128GB SSD + 1TB 7200RPM HDD for ideal balance of OS drive speed and storage space.
+Aura RGB lighting keyboard with 4 isolated hotkeys, 1.8mm key travel, and anti-ghosting technology. 4 zones of lighting control. 20-million keystroke durability.
+One-screw bottom panel offers convenient access to RAM and storage for upgradeability
+802.11ac 2x2 WiFi (up to 6x faster than traditional BGN)
+Bluetooth 4.2, 4x USB 3.0, 1x USB 3.1 (Type C), 1x HDMI 2.0, 1x Mini DisplayPort, 1x headphone/Mic jack, and 1x RJ45 LAN port
+
+
+SKU: DII-587
+Model: Dell I7567-5650BLK-PUS
+Dell - Inspiron 15.6" Laptop - Intel Core i5 - 8GB Memory - NVIDIA GeForce GTX 1050 Ti - 256GB Solid State Drive - Black
+Features:
+Windows 10 operating system
+15.6" Full HD display- The 1920 x 1080 resolution boasts impressive color and clarity. IPS technology for wide viewing angles. Energy-efficient LED backlight.
+7th Gen Intel® Core™ i5-7300HQ mobile processor
+8GB system memory for advanced multitasking
+256GB solid state drive (SSD)
+NVIDIA GeForce GTX 1050 Ti graphics
+Bluetooth 4.2 interface syncs with compatible devices, 3 USB 3.0 ports maximize the latest high-speed devices
+
+SKU: MGS-571
+Model: MSI GS63VR STEALTH-252
+MSI - GS Series Stealth Pro 15.6" Laptop - Intel Core i7 - 16GB Memory - NVIDIA GeForce GTX 1060 - 1TB HDD + 256GB SSD - Aluminum black
+Features:
+Windows 10 operating system
+15.6" Full HD displayThe 1920 x 1080 resolution boasts impressive color and clarity.
+1TB hard drive and 256GB solid state drive (SSD) for a blend of storage space and speed
+16GB system memory for intense multitasking and gaming
+NVIDIA GeForce GTX 1060 graphics Backed by 6GB GDDR5 dedicated video memory for an ultrafast, advanced GPU to fuel your games.
+
+SKU: APH-602
+Model: Acer PH31751787B
+Acer - Predator Helios 300 17.3" Laptop - Intel Core i7 - 16GB Memory-NVIDIA GeForce GTX 1060-1TB HD + 256GB Solid State Drive - Black
+Features:
+Windows 10 operating system
+17.3" display 1920 x 1080 native resolution. The IPS technology for wide viewing angles. Energy-efficient LED backlight.
+7th Gen Intel® Core™ i7-7700HQ mobile processor
+16GB system memory for intense multitasking and gaming
+Up to 7-hours of battery life
+
+Business Laptops:
+
+SKU: LEM-511
+Model: Lenovo 20EM001PUS
+Lenovo - ThinkPad Yoga 460 2-in-1 14" Touch-Screen Laptop - Intel Core i5 - 4GB Memory - 192GB Solid State Drive - Black
+Features:
+Windows 10 operating system
+14" Full HD 10-point multitouch screen for hands-on control
+6th Gen Intel® Core™ i5-6200U mobile processor
+192GB solid state drive (SSD)
+360° flip-and-fold design
+Built-in HD webcam with two microphones- Makes it easy to video chat with family and friends or teleconference with colleagues over Skype or other popular applications.
+Backlit keyboard for easy typing in dim or dark locations. Touchpad with scroll and multitouch capability.
+Built-in fingerprint reader
+
+
+SKU: HGE-604
+Model: HP 1GE42UT
+HP - EliteBook 14" Touch-Screen Laptop - Intel Core i5 - 8GB Memory - 256GB Solid State Drive - Silver
+Features:
+Windows 10 operating system
+14" Full HD touch screen
+7th Gen Intel® Core™ i5-7300U mobile processor
+8GB system memory for advanced multitasking
+256GB solid state drive (SSD)
+Intel® HD Graphics 620
+
+SKU: DLA-545
+Model: Dell LATI73706670
+Dell - Latitude 13.3" Touch-Screen Laptop - Intel Core M7 - 8GB Memory - 256GB Solid State Drive - Black
+Features:
+Windows 10 operating system
+13.3" QHD+ multitouch screen 3200 x 1800 resolution delivers amazing color and clarity with nearly 2.8 times the pixel density of Full HD. 
+6th Gen Intel® Core™ m7-6Y75 processor
+8GB system memory for advanced multitasking
+256GB solid state drive (SSD)
+Excellent standard battery life, plus even more power to carry you through every meeting with the optional Dell Power Companion.
+
+2 in 1 laptops:
+
+SKU: SNP-571
+Model: Samsung NP740U5M-X01US
+Samsung - 2-in-1 15.6" Touch-Screen Laptop - Intel Core i7 - 12GB Memory - NVIDIA GeForce 940MX - 1TB Hard Drive - Platinum Silver
+Features:
+Windows 10 OS
+360° Rotating Touchscreen
+7th Gen Intel® Core™ i7-7500U mobile processor
+12GB system memory for full-power multitasking
+Backlit Keyboard
+Dynamic Display- 15.6” Full HD screen with Video High Dynamic Range(HDR) mode that makes contrasts sharper, colors more vivid and textures pop
+Fast Charging Battery
+
+SKU: LCL-606
+Model: Lenovo 81C3000LUS
+Lenovo - Yoga 720 2-in-1 13.3" Touch-Screen Laptop - Intel Core i5 - 8GB Memory - 256GB Solid State Drive - Platinum Silver
+Features:
+Windows 10 operating system
+Built for Windows Ink- Enjoy Ink driven experiences in apps like Office, Messenger, Microsoft Edge, as well as apps from brands like Adobe.
+13.3" Full HD 10-point multitouch screen for hands-on control
+8th Gen Intel® Core™ i5-8250U mobile processor
+8GB system memory for advanced multitasking
+256GB solid-state drive (SSD)
+
+SKU: HAE-608
+Model: HP 13-AE013DX
+HP - Spectre x360 2-in-1 13.3" 4K Ultra HD Touch-Screen Laptop - Intel Core i7 - 16GB Memory - 512GB SSD - HP finish in dark ash silver
+Features:
+Windows 10 operating system
+Built for Windows Ink-Quickly jot down notes and ideas with ease.
+13.3" touch screen -3840 x 2160 native resolution. Natural finger-touch navigation makes the most of Windows 10.
+8th Gen Intel® Core™ i7-8550U mobile processor
+16GB system memory for intense multitasking and gaming
+512GB solid state drive (SSD)
+Built-in HP TrueVision HD webcam with dual-array digital microphone
+
+Home Laptops:
+SKU: AEN-502
+Acer Aspire E 15 E5-575-33BM 15.6-Inch FHD Notebook (Intel Core i3-7100U 7th Generation , 4GB DDR4, 1TB 5400RPM HD, Intel HD Graphics 620, Windows 10 Home), Obsidian Black
+Features:
+7th Generation Intel Core i3-7100U Processor (2.4GHz, 3MB L3 cache)
+15.6" Full HD Widescreen ComfyView LED-backlit Display supporting Acer ColorBlast technology
+4GB DDR4 Memory, 1TB 5400RPM HDD
+Windows 10 Home
+Up to 12-hours Battery Life
+
+Macbooks:
+
+SKU: AMP-572
+Model: Apple MPTV2LL/A
+Apple - MacBook Pro® - 15" Display - Intel Core i7 - 16 GB Memory - 512GB Flash Storage (Latest Model) - Silver
+Features:
+Touch Bar, Touch ID
+Brilliant Retina display
+Seventh-generation dual-core Intel Core i7
+Radeon Pro 560 with 4GB of memory
+Ultrafast SSD
+Four Thunderbolt 3 (USB-C) ports
+Up to 10 hours of battery life
+802.11ac Wi-Fi
+Force Touch trackpad
+
+SKU: AMQ-546
+Model: Apple- MQD42LL/A
+Apple - MacBook Air® (Latest Model) - 13.3" Display - Intel Core i5 - 8GB Memory - 256GB Flash Storage - Silver
+Features:
+The 13-inch MacBook Air features 8GB of memory, a fifth-generation Intel Core processor, Thunderbolt 2, great built-in apps, and all-day battery life.* It’s thin, light, and durable enough to take everywhere you go—and powerful enough to do everything once you get there
+Dual-core Intel Core i5 processor
+Intel HD Graphics 6000
+Fast SSD storage
+8GB memory
+Two USB 3 ports
+Thunderbolt 2 port
+SDXC port
+
+SKU: AZO-460
+Model: Apple Z0UC4LL/A
+Apple - MacBook Pro® - 15.4" Display - Intel Core i7 - 16 GB Memory - 1TB Solid State Drive (Latest Model) - Space Gray
+Features:
+A radiant 15-inch Retina display. Powerful quad-core Intel processor. Ultrafast SSD storage. High-performance integrated graphics. Great built-in apps. And a Force Touch trackpad and up to 9 hours of battery life.
+Brilliant Retina display
+Seventh-generation quad-core Intel Core i7
+Radeon Pro 560 with 4GB of memory
+Ultrafast SSD
+Four Thunderbolt 3 (USB-C) ports
+
+Chromebooks:
+
+SKU: SXE-611
+Model: Samsung XE510C24-K04US
+Samsung - Pro 2-in-1 12.3" Touch-Screen Chromebook - Intel Core m3 - 4GB Memory - 64GB eMMC Flash Memory - Metallic black
+Features:
+Google Chrome OS
+12.3" touch screen for hands-on control
+4GB system memory for basic multitasking
+64GB eMMC flash memory
+360° flip-and-fold design
+Built-in cloud support
+
+SKU: ACB-520
+Model: Acer CB5-132T-C8ZW
+Acer - R 11 2-in-1 11.6" Touch-Screen Chromebook - Intel Celeron - 4GB Memory - 16GB eMMC Flash Memory - White
+Features:
+Google Chrome OS
+11.6" multitouch screen for hands-on control
+Intel® Celeron® processor N3060
+4GB system memory for basic multitasking
+16GB eMMC flash memory
+The Corning Gorilla glass display
+
+SKU: ACC-565
+Model: Asus C302CA-RHPDT11
+Asus - Flip C302CA 12.5" Touch-Screen Chromebook - Intel Pentium - 4GB Memory - 32GB eMMC Flash Memory - Silver
+Features:
+Google Chrome OS
+12.5" Full HD touch screen for hands-on control The 1920 x 1080 resolution boasts impressive color and clarity. Energy-efficient LED backlight.
+Intel® Pentium® processor 4405Y
+4GB system memory for basic multitasking
+32GB eMMC flash memory
+Built-in cloud support
+
